@@ -1,0 +1,239 @@
+
+/* navigation bar section*/
+
+
+nav.top-nav{
+    background-color: rgb(126, 126, 194);
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    text-align: left;
+}
+
+body {
+    font-family: Baskerville;
+}
+
+nav.top-nav ul {
+    list-style: none;
+}
+
+nav.top-nav li {
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(199, 199, 223);  
+    margin: 5px 20px 5px 20px;
+    display: inline-block;
+    padding: 5px;
+    user-select: none;
+    position: relative;
+    font-size: 20px;
+}
+
+nav.top-nav a{
+    text-decoration: none;
+}
+
+nav.top-nav a:hover {
+    color: rgb(38, 38, 63);
+}
+
+nav.top-nav a:active {
+    color: rgb(199, 199, 223);  
+}
+
+/* rest of home screen*/
+
+
+main{
+    margin-top:100px;
+    color: rgb(38, 38, 63);
+
+
+}
+
+
+.section{
+    display: inline-block;
+    margin-right: 100px;
+    border-radius: 15px;
+    margin:  0px 30px 0px 30px;
+    vertical-align: top;
+
+}
+
+
+
+/* personal info section*/
+
+.info {
+    width: 450px;
+    background-color: rgb(199, 199, 223);    
+    height: 700px;
+    text-align: center;
+
+
+}
+
+.name {
+    padding-top: 20px;
+    text-decoration: underline;
+    
+}
+
+.name a {
+    color: rgb(38, 38, 63);
+}
+
+.name a:hover {
+    color: rgb(76, 76, 129);
+}
+
+.name a:active {
+    color: rgb(38, 38, 63);
+}
+
+.profpic {
+    background-image: url("prof pic.jpg");
+    height: 400px;
+    background-size:cover;
+    width: 400px;
+    margin: auto;
+}
+
+
+.heading {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*projects section*/
+
+
+.projects {
+    background-color: rgb(230, 230, 243);    
+    height: 700px;
+    width: 500px;
+
+}
+
+.projects div {
+    margin: auto;
+    text-align: center;
+
+}
+
+.projectpic {
+    height:240px;
+    margin: 30px;
+    width:360px;
+}
+
+.game {
+    background-image: url("game.png");
+    background-size: cover;
+    width: 300px;
+}
+
+.ipod div {
+    height: 240px;
+    width: 120px;
+    float: left;
+    background-size: cover;
+
+    
+}
+
+.ipod1 {
+    background-image: url("iphone1.png");
+
+}
+.ipod2 {
+    background-image: url("iphone2.png");
+
+}
+.ipod3 {
+    background-image: url("iphone3.png");
+
+}
+/*resume page*/
+.resume {
+    background-image: url("resumepic.jpg");
+    height: 1100px;
+    background-size:cover;
+    width: 850px;
+    margin: auto;
+    border: 3px solid rgb(54, 54, 107);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(54, 54, 107);
+    font-size: 30px;
+}
+
+/*bio page*/
+
+.bio {
+    height: 600px;
+    width: 1200px;
+    background-color: rgb(199, 199, 223);    
+    margin: auto;
+    color: rgb(38, 38, 63);
+
+}
+
+.biosection {
+    float: left;
+    margin: 50px;
+}
+
+.bioinfo {
+    width: 600px;
+}
+
+.bioinfo p {
+    font-size: 20px;
+}
+
+.bio h1 {
+    margin: 0px;
+}
+
+/* project page */
+
+.ipodproject {
+    margin: auto;
+    text-align: center;
+}
+
+.ipodproject div {
+    height: 300px;
+    width: 150px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.projectinfo {
+    height: 230px;
+    width: 1200px;
+    background-color: rgb(199, 199, 223);    
+    margin: auto;
+    color: rgb(38, 38, 63);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.projectinfo p {
+    font-size: 20px;
+
+}
+
+.contact {
+    margin: 0px;
+    border-top: 1px solid rgb(126, 126, 194);
+    margin-top:50px;
+}
