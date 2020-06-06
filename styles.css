@@ -159,7 +159,7 @@ main{
 }
 /*resume page*/
 .resume {
-    background-image: url("resumepic.jpg");
+    background-image: url("resumepic.jpeg");
     height: 1100px;
     background-size:cover;
     width: 850px;
